@@ -125,6 +125,89 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &189845562
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8082612214144964267, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_Name
+      value: PP_Meadow_Path_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2924466
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4685
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4685
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7103816
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1.4453268e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7038168
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.0222775e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.468
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5b8de414112a004a82d0437b5f7a780, type: 3}
 --- !u!1 &210408873
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +221,7 @@ GameObject:
   - component: {fileID: 210408875}
   - component: {fileID: 210408874}
   m_Layer: 0
-  m_Name: pillar_ (2)
+  m_Name: Column 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -224,7 +307,7 @@ Transform:
   m_GameObject: {fileID: 210408873}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 2.73, z: -4.45}
+  m_LocalPosition: {x: -0, y: 2.5, z: -4.45}
   m_LocalScale: {x: 5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -240,7 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 342319811}
   m_Layer: 0
-  m_Name: grip
+  m_Name: Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -342,7 +425,7 @@ GameObject:
   - component: {fileID: 439105020}
   - component: {fileID: 439105019}
   m_Layer: 0
-  m_Name: pillar_ (1)
+  m_Name: Column 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,7 +511,7 @@ Transform:
   m_GameObject: {fileID: 439105018}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 2.73, z: -4.45}
+  m_LocalPosition: {x: -0, y: 2.5, z: -4.45}
   m_LocalScale: {x: 5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -885,7 +968,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93438aa8db83aa840b980c69bea33acc,
         type: 3}
       propertyPath: m_Name
-      value: dva
+      value: Human Scale
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -905,7 +988,7 @@ GameObject:
   - component: {fileID: 1442086433}
   - component: {fileID: 1442086432}
   m_Layer: 0
-  m_Name: pillar_
+  m_Name: Column 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -991,7 +1074,7 @@ Transform:
   m_GameObject: {fileID: 1442086431}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 2.73, z: -4.45}
+  m_LocalPosition: {x: -0, y: 2.5, z: -4.45}
   m_LocalScale: {x: 5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1231,7 +1314,7 @@ GameObject:
   - component: {fileID: 1741688608}
   - component: {fileID: 1741688607}
   m_Layer: 0
-  m_Name: pillar_ (3)
+  m_Name: Column 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1317,7 +1400,7 @@ Transform:
   m_GameObject: {fileID: 1741688606}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 2.73, z: -4.45}
+  m_LocalPosition: {x: -0, y: 2.5, z: -4.45}
   m_LocalScale: {x: 5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1674,7 +1757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchedFromSDKPipeline: 0
   completedSDKPipeline: 0
-  blueprintId: wrld_2ce888ff-7152-4096-8240-f6998c4888d3
+  blueprintId: 
   contentType: 1
   assetBundleUnityVersion: 
   fallbackStatus: 0
@@ -1812,7 +1895,7 @@ GameObject:
   - component: {fileID: 7606902903243430485}
   - component: {fileID: 7606902903243430482}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1902,3 +1985,4 @@ SceneRoots:
   - {fileID: 1229014524}
   - {fileID: 342319811}
   - {fileID: 1870331325}
+  - {fileID: 189845562}
