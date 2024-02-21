@@ -14,7 +14,6 @@ public class SetDirtCollider : MonoBehaviour
             MeshCollider mc = block.AddComponent<MeshCollider>();
             mc.sharedMesh = mesh;
         }
-        
     }
 
     // Update is called once per frame
