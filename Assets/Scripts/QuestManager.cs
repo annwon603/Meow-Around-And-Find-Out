@@ -14,8 +14,6 @@ public class QuestManager : UdonSharpBehaviour
     //the list of text to choose from 
     public GameObject[] listOfQuest;
 
-    // public Button button;
-    // Button btn;
 
 
     GameObject theChosenOne;
@@ -23,29 +21,20 @@ public class QuestManager : UdonSharpBehaviour
     TextMeshProUGUI textmeshpro_objective_text;
     TextMeshProUGUI chosentext;
 
-    int numOfClicks = 0;
+    public int numOfClicks = 0;
 
     void Start()
     {
+
         textmeshpro_objective_text = textmeshpro_objective.GetComponent<TextMeshProUGUI>();
-        // btn = button.GetComponent<Button>();
+
     }
 
-    public void Interact(){
-        Debug.Log("Interact ran");
-        Debug.Log(numOfClicks);
-        Increase();
-    }
-
-    void Increase()
+    //Updates quest objective
+    public void set(int type)
     {
+        numOfClicks = type;
 
-        if(numOfClicks < 3){
-            numOfClicks++;
-        }else{
-            numOfClicks = 0;
-        }
-        
     }
 
     void Update()
