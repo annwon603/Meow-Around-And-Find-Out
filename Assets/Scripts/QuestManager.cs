@@ -21,7 +21,10 @@ public class QuestManager : UdonSharpBehaviour
     TextMeshProUGUI textmeshpro_objective_text;
     TextMeshProUGUI chosentext;
 
-    public int numOfClicks = 0;
+    public int alreadySet;
+    public int pointer = 0;
+
+    public int numOfQuestComplete = 0;
 
     void Start()
     {
@@ -30,20 +33,50 @@ public class QuestManager : UdonSharpBehaviour
 
     }
 
-    //Updates quest objective
-    public void set(int type)
+    public void setPointer(int setter)
     {
-        numOfClicks = type;
+        pointer = setter;
+        alreadySet = setter;
+    
+    }
+
+    public int alreadysetter(){
+        return alreadySet;
+    }
+
+
+
+    public void Increase()
+    {
+        numOfQuestComplete++;
+    }
+
+    public void UpdatePointer()
+    {
+      
+        if(pointer < 6){
+            pointer ++;
+        }else{
+            pointer = 0;
+        }
 
     }
 
     void Update()
     {   
-
-        theChosenOne = listOfQuest[numOfClicks];
+        if(numOfQuestComplete < 6){
+            theChosenOne = listOfQuest[pointer];
         
-        chosentext = theChosenOne.GetComponent<TextMeshProUGUI>();
-        textmeshpro_objective_text.text = chosentext.text;
+            chosentext = theChosenOne.GetComponent<TextMeshProUGUI>();
+            textmeshpro_objective_text.text = chosentext.text;
+
+        }else{
+
+            theChosenOne = listOfQuest[5];
+            chosentext = theChosenOne.GetComponent<TextMeshProUGUI>();
+            textmeshpro_objective_text.text = chosentext.text;
+
+        } 
 
     }
 }
