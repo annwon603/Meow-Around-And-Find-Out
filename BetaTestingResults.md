@@ -19,3 +19,8 @@
 - [ ] Potentially AI generate voices for the dialogue
     - [ ] Ask VGDC VA group
     - [ ] Ask Antonio
+- [ ] Standardize the descriptions across all worlds
+    - [ ] Potentially make a tinyurl for the game and song
+    - [ ] Change the thumbnail (maybe first slide on presentation?)
+- [ ] Create LinkedIn posts at the Studio
+    - [ ] Take pictures of both of our avatars together
