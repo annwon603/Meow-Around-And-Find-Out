@@ -6,7 +6,7 @@ Our cohort met twice a week for ten weeks for forty hours during the winter quar
 our twenty-person cohort learned about the Unity to VR Chat design pipeline across multiple platforms. This repository includes all relevant packages and scripts we used to 
 build our world in Unity. Assets and materials were modeled and imported from Maya, Blender, VS Code, and Canva.
 
-There are a few distinct aspects of this world, organized as follows:
+There are two distinct aspects of this world, organized as follows:
 * Nature Walk
   1. 5-6 Minutes
   2. Square Trail
