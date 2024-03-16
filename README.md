@@ -2,11 +2,11 @@
 
 @annwon603 and @ohasis created this virtual reality world as a part of the second **Mixed Augmented Virtual Extended Reality Innovation Center (MAVERiC)** cohort at UCSD.
 
-Our cohort met twice a week for ten weeks for forty hours during the winter quarter in 2024. Under the guidance of Joseph Unger and Trish Williams of Origami Air Studios, 
+Our cohort met twice a week for ten weeks for forty hours during the winter quarter of 2024. Under the guidance of Joseph Unger and Trish Williams of Origami Air Studios, 
 our twenty-person cohort learned about the Unity to VR Chat design pipeline across multiple platforms. This repository includes all relevant packages and scripts we used to 
 build our world in Unity. Assets and materials were modeled and imported from Maya, Blender, VS Code, and Canva.
 
-There are two distinct aspects of this world, organized as follows:
+Two distinct aspects of this world are organized as follows:
 * Nature Walk
   1. 5-6 Minutes
   2. Square Trail
