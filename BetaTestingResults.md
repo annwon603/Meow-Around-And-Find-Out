@@ -1,26 +1,23 @@
 # Beta Testing Results
-- [ ] Create an explanatory slideshow
-    - [ ] Include the process from inception to creation
-    - [ ] Note the similarities to the other given presentations
+## Logistics
 - [ ] Set up the world so only one person can enter the world at a time
-- [ ] Publish my build of the world so it is accessible / Add myself as the author of the world
-    - [ ] Include a credits section in the world
-- [ ] Create your avatar of the world
-- [ ] Ensure that the next dialogue prompt only appears on click
-- [ ] Check the UI assigned script and spell/grammar check
-- [ ] Adjust the plane/market platform
+- [ ] Add a credits section in the world description for standardization purposes
+- [ ] Make a tinyurl for the world
+- [ ] Standardize the thumbnail across all platforms
+## World Building
 - [ ] Add invisible barriers around the market
-- [ ] Add more details to the stalls themselves
-- [ ] Change the color of the grass material
-    - [ ] Add pieces to the general path (turn off mesh collider)
+- [ ] Ensure consistency between all the grass blades on the nature walk
+- [ ] Turn off the mesh collider of grass pieces on the path
 - [ ] Add a water(fall) lighting effect
-- [ ] Adjust the naming conventions of the repository
-- [ ] Add cloud assets in the sky
+- [ ] Place cloud assets in the sky
+### Market Stalls
+- [ ] Add more details to the stalls themselves
+## Character Development
+- [ ] Spell check the UI prompts
+- [ ] Verify that the next dialogue prompt only appears on click
+- [ ] 
+
+
 - [ ] Potentially AI generate voices for the dialogue
     - [ ] Ask VGDC VA group
     - [ ] Ask Antonio
-- [ ] Standardize the descriptions across all worlds
-    - [ ] Potentially make a tinyurl for the game and song
-    - [ ] Change the thumbnail (maybe first slide on presentation?)
-- [ ] Create LinkedIn posts at the Studio
-    - [ ] Take pictures of both of our avatars together
