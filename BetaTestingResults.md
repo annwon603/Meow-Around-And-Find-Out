@@ -5,23 +5,25 @@
 | No | Set up the world so only one person can enter the world at a time | |
 | No | Add a credits section in the world description for standardization purposes | | 
 | No | Make a <u>tinyurl</u> for the world | |
+| No | Standardize the thumbnail across all platforms | |
 
-- [ ] Make a tinyurl for the world
-- [ ] Standardize the thumbnail across all platforms
 ## World Building
-- [ ] Add invisible barriers around the market
-- [ ] Ensure consistency between all the grass blades on the nature walk
-- [ ] Turn off the mesh collider of grass pieces on the path
-- [ ] Add a water(fall) lighting effect
-- [ ] Place cloud assets in the sky
+| Complete | Task | Date
+| :----: | :---- | ----- |
+| No | Add invisible barriers around the market | |
+| No | Ensure consistency between all the grass blades on the nature walk | |
+| No | Turn off the mesh collider of grass pieces on the path | |
+| No | Add a water(fall) lighting effect | |
+| No | Place cloud assets in the sky | |
+
 ### Market Stalls
-- [ ] Add more details to the stalls themselves
+| Complete | Task | Date
+| :----: | :---- | ----- |
+| No | Add more details to the stalls themselves | |
+
 ## Character Development
-- [ ] Spell check the UI prompts
-- [ ] Verify that the next dialogue prompt only appears on click
-- [ ] 
-
-
-- [ ] Potentially AI generate voices for the dialogue
-    - [ ] Ask VGDC VA group
-    - [ ] Ask Antonio
+| Complete | Task | Date
+| :----: | :---- | ----- |
+| No | Spellcheck the UI prompts | |
+| No | Verify that the next dialogue prompt only appears on click | |
+| No | Record dialogue for each character via VGDC | |
