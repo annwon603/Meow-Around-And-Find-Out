@@ -10,7 +10,7 @@
 ## World Building
 | Complete | Task | Date
 | :----: | :---- | ----- |
-| No | Add invisible barriers around the market | Week 4 |
+| Yes | Add invisible barriers around the market | Week 4 |
 | No | Ensure consistency between all the grass blades on the nature walk | |
 | No | Turn off the mesh collider of grass pieces on the path | |
 | No | Add a water(fall) lighting effect | |
