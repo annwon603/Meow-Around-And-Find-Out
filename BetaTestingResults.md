@@ -2,15 +2,15 @@
 ## Logistics
 | Complete | Task | Date
 | :----: | :---- | :-----: |
-| No | Set up the world so only one person can enter the world at a time | Week 4 |
+| No | Set up the world so only one person can enter the world at a time | |
 | No | Add a credits section in the world description for standardization purposes | | 
-| No | Make a <u>tinyurl</u> for the world | Week 4 |
+| No | Make a <u>tinyurl</u> for the world | |
 | No | Standardize the thumbnail across all platforms | |
 
 ## World Building
 | Complete | Task | Date
 | :----: | :---- | ----- |
-| Yes | Add invisible barriers around the market | Week 4 |
+| Yes | Add invisible barriers around the market | |
 | No | Ensure consistency between all the grass blades on the nature walk | |
 | No | Turn off the mesh collider of grass pieces on the path | |
 | No | Add a water(fall) lighting effect | |
